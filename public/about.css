@@ -1,0 +1,47 @@
+#ROCKETSEAT {
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    color: white
+}
+#ROCKETSEAT img{
+    border-radius: 50%;
+    border:  2px solid green;
+    margin-bottom: 25px;
+    width: 300px;  
+}
+#ROCKETSEAT h1 {
+    font-size: 40px;
+    line-height: 20px
+}
+#ROCKETSEAT h2 {
+    padding: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 1000px;
+    margin:  0 auto;   
+}
+#lista {
+    text-align: center;
+    padding: 0px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+#links-footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    line-height: 60px
+}
+#links-footer a{
+    color: white;
+    margin: 0 15px;
+    font-size: 25px;
+    border-bottom: 1px solid green;
+    text-decoration: none;
+}
+#links-footer a:hover {
+    color: green;
+    transition: 500ms
+}

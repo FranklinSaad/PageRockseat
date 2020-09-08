@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Cursos - ROCKETSEAT</title>
+    <link rel="stylesheet" href="header.css"> 
+    <link rel="stylesheet" href="courses.css">  
+{% endblock %}
+
+{% block content %}
+
+    <selection class="cursos">
+        {% for item in items%}
+        <div class="curso" id="{{item.id}}">
+            <div class="curso__logo">
+                <img src="{{item.img}}" alt="Curso">
+            </div>
+            <div class="curso__descricao">
+                <p>{{item.description}}</p>
+            </div>
+            <div class="curso__quantmodulos">
+                <p class="curso__modulo">{{item.duration}}</p>
+                <p class="curso__preco">{{item.price}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </selection>
+
+    <script src="/scripts.js"></script>
+
+{% endblock %}

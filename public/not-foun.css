@@ -1,0 +1,18 @@
+.mensage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.not-found p {
+    font-size: 200px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.e404 p {
+    font-size: 300px;
+    color: red;
+}

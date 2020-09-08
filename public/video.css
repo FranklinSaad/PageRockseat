@@ -1,0 +1,53 @@
+#wrapper {
+    text-align: center;
+    padding: 32px;
+    color: white;
+}
+
+.video {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.card {
+    background-color: rgb(116, 63, 116);
+    cursor: pointer;
+    display: grid;
+}
+
+.card__video-container {
+    position: relative;
+    padding-top: 62.5%;
+}
+
+.card__video-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    padding: 24px;
+    font-weight: bold;      
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;   
+}
+
+.card__price {
+    background-color: rgb(0, 0, 0);
+    filter: brightness(90%);
+    padding:  5px 20px;
+    border-radius: 20px;
+    text-align:  center;
+    color: white;  
+}

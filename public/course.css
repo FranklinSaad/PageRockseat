@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+body {
+    background: rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif
+}  
+header {
+    padding: 30px;
+    background:rgb(27, 27, 27)
+}
+header div {
+    text-align: right;
+    }
+header div a {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+header div a:hover {
+    color: green;
+    transition: 500ms
+}
+
+/* === Courses === */
+.courses{
+    text-align: center;
+    max-width: 900px;
+    margin: auto; 
+    color: rgb(135, 134, 139);
+}
+
+.course{
+    margin-top: 50px; 
+    height: 700px;
+    border-radius: 8px;
+    font-size: 35px;
+    background-color: rgba(27, 27, 27);  
+   
+}
+
+.course:hover{
+    margin-top: 50px; 
+    border: #04d265 solid 2px;
+    transition: 300ms;
+    cursor: pointer;
+ 
+} 
+
+.course-description{
+    margin: 40px auto;
+}
+
+.course-information{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;   
+}
+
+.course-logo{
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.course-duration{
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+    width: 150px;
+    color: darkgray;
+    margin-left: 30px;
+}
+
+.course-price{
+    background-color: #7159c1;
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.course-price p{
+    margin: auto;
+}

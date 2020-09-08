@@ -1,0 +1,56 @@
+*.cursos {
+    margin: 50px auto;
+    text-align: center;
+    gap: 50px;  
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.curso {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.curso:hover {
+    border: 3px solid green;
+    transition: 150ms; 
+}
+.curso__logo {
+    text-align: center;
+}
+.curso__logo img {
+    margin-top: 30px;
+}
+.curso__descricao {
+   text-align: center;
+   margin-top: 30px;
+   max-width: 400px;
+   margin: auto;
+}
+.curso__quantmodulos {
+    height: 50px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.curso__modulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curso__preco {
+    background-color:rgb(59, 59, 59);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 150px;
+}
+.cursp__preco p {
+    margin: auto;
+}

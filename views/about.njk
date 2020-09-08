@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Sobre - {{ about.name }}</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+{% endblock %}
+
+{% block content %}
+
+    <div id="ROCKETSEAT">
+        <img src="{{ about.avatar_url }}" alt="Imagem de {{ about.name }}">
+        <h1>{{ about.name }}</h1>
+        <h2>{{ about.description }}</h2>
+        <p>{{ about.show }}</p>
+    </div>
+    <div id="lista">
+        <ul>
+            {% for example in about.examples %}
+                <li>{{ example.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div id="links-footer">
+        {% for link in about.links %}
+            <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+        {% endfor %}
+    </div>
+
+{% endblock %}
