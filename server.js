@@ -14,7 +14,7 @@ server.set("view engine", "njk")
 
 nunjucks.configure("views", {
     express: server,
-    //retirar código html na variável e aplicar funcionalidade//
+    
     autoescape: false,
 
     NoCacher: true
